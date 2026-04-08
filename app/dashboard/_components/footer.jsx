@@ -16,7 +16,7 @@ const Footer = () => {
   const navItem = (href, label) => (
     <Link
       href={href}
-      className={`text-sm font-medium transition-colors ${isActive(href) ? "text-primary" : "text-black/80 hover:text-primary"}`}
+      className={`text-sm font-medium transition-colors ${isActive(href) ? "text-primary !font-bold" : "text-black/80 hover:text-primary"}`}
     >
       {label}
     </Link>

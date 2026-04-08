@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <div className="flex items-center justify-between gap-4 p-4 bg-secondary shadow-sm pr-6">
       <Link href="/">
-        <Image src="/logo.svg" width={120} height={80} alt="logo" />
+        <Image src="/logo.svg" width={110} height={80} alt="logo" />
       </Link>
       <div className="hidden md:flex gap-6">
         {navItem("/dashboard", "Dashboard")}

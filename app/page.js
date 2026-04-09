@@ -201,7 +201,7 @@ const Home = () => {
           </div>
         </div>
 
-        <footer className="hidden bottom-0 md:flex flex-wrap justify-center items-center w-full min-h-[150px] gap-4 md:gap-6 border-t-2 border-[#ebd451] bg-[#fbe463] py-6">
+        <footer className="hidden bottom-0 md:flex flex-wrap justify-center items-center w-full min-h-[75px] gap-4 md:gap-8 border-t-2 border-[#ebd451] bg-[#fbe463] py-6">
           {data.map((item) => (
               <strong key={item.id} className="text-sm md:text-base text-gray-500">
               {item.title}

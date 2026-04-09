@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         >
           <div className="flex min-h-screen flex-col">
             <Header />
-            <main className="flex-1 pb-24">
+            <main className="flex-1">
               <Toaster />
               {children}
             </main>
